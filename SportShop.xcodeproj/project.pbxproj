@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A6617CD88E7EF1982EF0039 /* Pods_SportShopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E22857A56285231DD20C7F /* Pods_SportShopUITests.framework */; };
+		9009AB8D7BEBBC1CA0C3D177 /* Pods_SportShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2045EC899E58CEDFF898E106 /* Pods_SportShopTests.framework */; };
+		962309181E4236E100706E0E /* Checkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962309171E4236E100706E0E /* Checkin.swift */; };
+		9623091A1E42421700706E0E /* AdidasUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962309191E42421700706E0E /* AdidasUser.swift */; };
+		9674CF691E3B850E00666968 /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9674CF681E3B850E00666968 /* CartItemCell.swift */; };
+		9674CF6B1E3B88EE00666968 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9674CF6A1E3B88EE00666968 /* Cart.swift */; };
+		9674CF771E3CF31700666968 /* CheckoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9674CF761E3CF31700666968 /* CheckoutController.swift */; };
+		9674CF791E3D36D100666968 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9674CF781E3D36D100666968 /* SignupController.swift */; };
+		9692A57E1E398DAE00EBEC23 /* AppNavigationDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A57D1E398DAE00EBEC23 /* AppNavigationDrawerController.swift */; };
+		9692A5801E398EA800EBEC23 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A57F1E398EA800EBEC23 /* LeftViewController.swift */; };
+		9692A5821E39AEA900EBEC23 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A5811E39AEA900EBEC23 /* AccountViewController.swift */; };
+		9692A5861E39B04A00EBEC23 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A5851E39B04A00EBEC23 /* MenuItemCell.swift */; };
+		9692A58C1E3A7C2B00EBEC23 /* FeedItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A58B1E3A7C2B00EBEC23 /* FeedItemCell.swift */; };
+		9692A58F1E3AE34800EBEC23 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A58E1E3AE34800EBEC23 /* CartViewController.swift */; };
+		9692A5921E3AE41D00EBEC23 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A5911E3AE41D00EBEC23 /* SupportViewController.swift */; };
+		9692A5941E3AE5E400EBEC23 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A5931E3AE5E400EBEC23 /* FeedItem.swift */; };
+		96A6AB591E3EF54B0093C051 /* ProductsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A6AB581E3EF54B0093C051 /* ProductsController.swift */; };
+		96A6AB5B1E3F928D0093C051 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A6AB5A1E3F928D0093C051 /* Product.swift */; };
+		96A6AB5D1E3F993A0093C051 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A6AB5C1E3F993A0093C051 /* ProductCell.swift */; };
+		96A6AB5F1E3FA3140093C051 /* ProductDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A6AB5E1E3FA3140093C051 /* ProductDetailController.swift */; };
+		96B01EED1E39237F00E2CFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B01EEC1E39237F00E2CFE1 /* AppDelegate.swift */; };
+		96B01EEF1E39237F00E2CFE1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B01EEE1E39237F00E2CFE1 /* RootViewController.swift */; };
+		96B01EF21E39237F00E2CFE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B01EF01E39237F00E2CFE1 /* Main.storyboard */; };
+		96B01EF41E39237F00E2CFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B01EF31E39237F00E2CFE1 /* Assets.xcassets */; };
+		96B01EF71E39237F00E2CFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B01EF51E39237F00E2CFE1 /* LaunchScreen.storyboard */; };
+		96B01F021E39237F00E2CFE1 /* SportShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B01F011E39237F00E2CFE1 /* SportShopTests.swift */; };
+		96B01F0D1E39237F00E2CFE1 /* SportShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B01F0C1E39237F00E2CFE1 /* SportShopUITests.swift */; };
+		96E445F71E3FFFF10050523A /* InStoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E445F61E3FFFF10050523A /* InStoreController.swift */; };
+		96E445FB1E403F1F0050523A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E445FA1E403F1F0050523A /* NotificationController.swift */; };
+		96E445FD1E4047080050523A /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E445FC1E4047080050523A /* Activity.swift */; };
+		96E445FF1E404D6B0050523A /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E445FE1E404D6B0050523A /* ActivityManager.swift */; };
+		96E4D9651E415E8800A7EF3C /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E4D9641E415E8800A7EF3C /* SettingsController.swift */; };
+		D17243E2BE4E1F97762D0FA8 /* Pods_SportShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3F479BC2DCC4A19823E370 /* Pods_SportShop.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96B01EFE1E39237F00E2CFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96B01EE11E39237F00E2CFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96B01EE81E39237F00E2CFE1;
+			remoteInfo = SportShop;
+		};
+		96B01F091E39237F00E2CFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96B01EE11E39237F00E2CFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96B01EE81E39237F00E2CFE1;
+			remoteInfo = SportShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2045EC899E58CEDFF898E106 /* Pods_SportShopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportShopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FDD8AD675AD6E99710A1AE /* Pods-SportShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportShopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SportShopUITests/Pods-SportShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B3F479BC2DCC4A19823E370 /* Pods_SportShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		406D1359A9A1F2187CD8B31D /* Pods-SportShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportShopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SportShopTests/Pods-SportShopTests.release.xcconfig"; sourceTree = "<group>"; };
+		40E22857A56285231DD20C7F /* Pods_SportShopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportShopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0C71CD93B983C55926AA36 /* Pods-SportShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SportShop/Pods-SportShop.debug.xcconfig"; sourceTree = "<group>"; };
+		904FEA2A588E5D7CF9B503B4 /* Pods-SportShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportShopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SportShopTests/Pods-SportShopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		962309171E4236E100706E0E /* Checkin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkin.swift; sourceTree = "<group>"; };
+		962309191E42421700706E0E /* AdidasUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdidasUser.swift; sourceTree = "<group>"; };
+		9674CF681E3B850E00666968 /* CartItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItemCell.swift; sourceTree = "<group>"; };
+		9674CF6A1E3B88EE00666968 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		9674CF761E3CF31700666968 /* CheckoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutController.swift; sourceTree = "<group>"; };
+		9674CF781E3D36D100666968 /* SignupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		9692A57D1E398DAE00EBEC23 /* AppNavigationDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationDrawerController.swift; sourceTree = "<group>"; };
+		9692A57F1E398EA800EBEC23 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		9692A5811E39AEA900EBEC23 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		9692A5851E39B04A00EBEC23 /* MenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		9692A58B1E3A7C2B00EBEC23 /* FeedItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItemCell.swift; sourceTree = "<group>"; };
+		9692A58E1E3AE34800EBEC23 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		9692A5911E3AE41D00EBEC23 /* SupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		9692A5931E3AE5E400EBEC23 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		96A6AB581E3EF54B0093C051 /* ProductsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsController.swift; sourceTree = "<group>"; };
+		96A6AB5A1E3F928D0093C051 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		96A6AB5C1E3F993A0093C051 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		96A6AB5E1E3FA3140093C051 /* ProductDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailController.swift; sourceTree = "<group>"; };
+		96B01EE91E39237F00E2CFE1 /* SportShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B01EEC1E39237F00E2CFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96B01EEE1E39237F00E2CFE1 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		96B01EF11E39237F00E2CFE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96B01EF31E39237F00E2CFE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96B01EF61E39237F00E2CFE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96B01EF81E39237F00E2CFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B01EFD1E39237F00E2CFE1 /* SportShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B01F011E39237F00E2CFE1 /* SportShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportShopTests.swift; sourceTree = "<group>"; };
+		96B01F031E39237F00E2CFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B01F081E39237F00E2CFE1 /* SportShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B01F0C1E39237F00E2CFE1 /* SportShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportShopUITests.swift; sourceTree = "<group>"; };
+		96B01F0E1E39237F00E2CFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E445F61E3FFFF10050523A /* InStoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InStoreController.swift; sourceTree = "<group>"; };
+		96E445FA1E403F1F0050523A /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		96E445FC1E4047080050523A /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		96E445FE1E404D6B0050523A /* ActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
+		96E4D9641E415E8800A7EF3C /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		C4BAAA4F1D2B8FF12919554B /* Pods-SportShopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportShopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SportShopUITests/Pods-SportShopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD3D04386EB119574E5A366A /* Pods-SportShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-SportShop/Pods-SportShop.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96B01EE61E39237F00E2CFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17243E2BE4E1F97762D0FA8 /* Pods_SportShop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B01EFA1E39237F00E2CFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9009AB8D7BEBBC1CA0C3D177 /* Pods_SportShopTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B01F051E39237F00E2CFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6617CD88E7EF1982EF0039 /* Pods_SportShopUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64CBA186750D500C67D286E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C71CD93B983C55926AA36 /* Pods-SportShop.debug.xcconfig */,
+				DD3D04386EB119574E5A366A /* Pods-SportShop.release.xcconfig */,
+				904FEA2A588E5D7CF9B503B4 /* Pods-SportShopTests.debug.xcconfig */,
+				406D1359A9A1F2187CD8B31D /* Pods-SportShopTests.release.xcconfig */,
+				38FDD8AD675AD6E99710A1AE /* Pods-SportShopUITests.debug.xcconfig */,
+				C4BAAA4F1D2B8FF12919554B /* Pods-SportShopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9422CA11E122562E567F1230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B3F479BC2DCC4A19823E370 /* Pods_SportShop.framework */,
+				2045EC899E58CEDFF898E106 /* Pods_SportShopTests.framework */,
+				40E22857A56285231DD20C7F /* Pods_SportShopUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9692A5891E3A7BCA00EBEC23 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				96B01EEE1E39237F00E2CFE1 /* RootViewController.swift */,
+				9692A58B1E3A7C2B00EBEC23 /* FeedItemCell.swift */,
+				9692A5931E3AE5E400EBEC23 /* FeedItem.swift */,
+			);
+			name = Feed;
+			sourceTree = "<group>";
+		};
+		9692A58A1E3A7BD100EBEC23 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				9692A5811E39AEA900EBEC23 /* AccountViewController.swift */,
+				9674CF781E3D36D100666968 /* SignupController.swift */,
+				96E4D9641E415E8800A7EF3C /* SettingsController.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		9692A58D1E3AE33500EBEC23 /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				9692A58E1E3AE34800EBEC23 /* CartViewController.swift */,
+				9674CF681E3B850E00666968 /* CartItemCell.swift */,
+				9674CF6A1E3B88EE00666968 /* Cart.swift */,
+				9674CF761E3CF31700666968 /* CheckoutController.swift */,
+			);
+			name = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		9692A5901E3AE3BD00EBEC23 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				9692A5911E3AE41D00EBEC23 /* SupportViewController.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		9692A5951E3B0A0700EBEC23 /* LeftMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9692A5851E39B04A00EBEC23 /* MenuItemCell.swift */,
+				9692A57F1E398EA800EBEC23 /* LeftViewController.swift */,
+			);
+			name = LeftMenu;
+			sourceTree = "<group>";
+		};
+		96A6AB571E3EF5310093C051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96A6AB581E3EF54B0093C051 /* ProductsController.swift */,
+				96A6AB5A1E3F928D0093C051 /* Product.swift */,
+				96A6AB5C1E3F993A0093C051 /* ProductCell.swift */,
+				96A6AB5E1E3FA3140093C051 /* ProductDetailController.swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96B01EE01E39237F00E2CFE1 = {
+			isa = PBXGroup;
+			children = (
+				96B01EEB1E39237F00E2CFE1 /* SportShop */,
+				96B01F001E39237F00E2CFE1 /* SportShopTests */,
+				96B01F0B1E39237F00E2CFE1 /* SportShopUITests */,
+				96B01EEA1E39237F00E2CFE1 /* Products */,
+				64CBA186750D500C67D286E1 /* Pods */,
+				9422CA11E122562E567F1230 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96B01EEA1E39237F00E2CFE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96B01EE91E39237F00E2CFE1 /* SportShop.app */,
+				96B01EFD1E39237F00E2CFE1 /* SportShopTests.xctest */,
+				96B01F081E39237F00E2CFE1 /* SportShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96B01EEB1E39237F00E2CFE1 /* SportShop */ = {
+			isa = PBXGroup;
+			children = (
+				96E445F51E3FFFDE0050523A /* InStore */,
+				96A6AB571E3EF5310093C051 /* Products */,
+				9692A5951E3B0A0700EBEC23 /* LeftMenu */,
+				9692A5901E3AE3BD00EBEC23 /* Support */,
+				9692A58D1E3AE33500EBEC23 /* ShoppingCart */,
+				9692A58A1E3A7BD100EBEC23 /* Account */,
+				9692A5891E3A7BCA00EBEC23 /* Feed */,
+				9692A57D1E398DAE00EBEC23 /* AppNavigationDrawerController.swift */,
+				96B01EEC1E39237F00E2CFE1 /* AppDelegate.swift */,
+				96B01EF01E39237F00E2CFE1 /* Main.storyboard */,
+				96B01EF31E39237F00E2CFE1 /* Assets.xcassets */,
+				96B01EF51E39237F00E2CFE1 /* LaunchScreen.storyboard */,
+				96B01EF81E39237F00E2CFE1 /* Info.plist */,
+				96E445FA1E403F1F0050523A /* NotificationController.swift */,
+				96E445FC1E4047080050523A /* Activity.swift */,
+				96E445FE1E404D6B0050523A /* ActivityManager.swift */,
+				962309191E42421700706E0E /* AdidasUser.swift */,
+			);
+			path = SportShop;
+			sourceTree = "<group>";
+		};
+		96B01F001E39237F00E2CFE1 /* SportShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				96B01F011E39237F00E2CFE1 /* SportShopTests.swift */,
+				96B01F031E39237F00E2CFE1 /* Info.plist */,
+			);
+			path = SportShopTests;
+			sourceTree = "<group>";
+		};
+		96B01F0B1E39237F00E2CFE1 /* SportShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96B01F0C1E39237F00E2CFE1 /* SportShopUITests.swift */,
+				96B01F0E1E39237F00E2CFE1 /* Info.plist */,
+			);
+			path = SportShopUITests;
+			sourceTree = "<group>";
+		};
+		96E445F51E3FFFDE0050523A /* InStore */ = {
+			isa = PBXGroup;
+			children = (
+				96E445F61E3FFFF10050523A /* InStoreController.swift */,
+				962309171E4236E100706E0E /* Checkin.swift */,
+			);
+			name = InStore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96B01EE81E39237F00E2CFE1 /* SportShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B01F111E39237F00E2CFE1 /* Build configuration list for PBXNativeTarget "SportShop" */;
+			buildPhases = (
+				ACAB295961840EDE68F7BE57 /* [CP] Check Pods Manifest.lock */,
+				96B01EE51E39237F00E2CFE1 /* Sources */,
+				96B01EE61E39237F00E2CFE1 /* Frameworks */,
+				96B01EE71E39237F00E2CFE1 /* Resources */,
+				D57B449AA285923E305A98C1 /* [CP] Embed Pods Frameworks */,
+				28CFE52536DD0ECBB49464FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportShop;
+			productName = SportShop;
+			productReference = 96B01EE91E39237F00E2CFE1 /* SportShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96B01EFC1E39237F00E2CFE1 /* SportShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B01F141E39237F00E2CFE1 /* Build configuration list for PBXNativeTarget "SportShopTests" */;
+			buildPhases = (
+				8DD52F7D055E3F9782D86805 /* [CP] Check Pods Manifest.lock */,
+				96B01EF91E39237F00E2CFE1 /* Sources */,
+				96B01EFA1E39237F00E2CFE1 /* Frameworks */,
+				96B01EFB1E39237F00E2CFE1 /* Resources */,
+				11552539BF1EEF89F3E806D8 /* [CP] Embed Pods Frameworks */,
+				DEBCC41A03A396DCFBE63BEF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96B01EFF1E39237F00E2CFE1 /* PBXTargetDependency */,
+			);
+			name = SportShopTests;
+			productName = SportShopTests;
+			productReference = 96B01EFD1E39237F00E2CFE1 /* SportShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96B01F071E39237F00E2CFE1 /* SportShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B01F171E39237F00E2CFE1 /* Build configuration list for PBXNativeTarget "SportShopUITests" */;
+			buildPhases = (
+				4DE2A42855C7F8BB95CA45F0 /* [CP] Check Pods Manifest.lock */,
+				96B01F041E39237F00E2CFE1 /* Sources */,
+				96B01F051E39237F00E2CFE1 /* Frameworks */,
+				96B01F061E39237F00E2CFE1 /* Resources */,
+				4C9263FEE0F7FD2F487BCC8A /* [CP] Embed Pods Frameworks */,
+				0485BC984B88C2272AAA03A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96B01F0A1E39237F00E2CFE1 /* PBXTargetDependency */,
+			);
+			name = SportShopUITests;
+			productName = SportShopUITests;
+			productReference = 96B01F081E39237F00E2CFE1 /* SportShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96B01EE11E39237F00E2CFE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kinvey;
+				TargetAttributes = {
+					96B01EE81E39237F00E2CFE1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5W7CYNR7UE;
+						ProvisioningStyle = Automatic;
+					};
+					96B01EFC1E39237F00E2CFE1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96B01EE81E39237F00E2CFE1;
+					};
+					96B01F071E39237F00E2CFE1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96B01EE81E39237F00E2CFE1;
+					};
+				};
+			};
+			buildConfigurationList = 96B01EE41E39237F00E2CFE1 /* Build configuration list for PBXProject "SportShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96B01EE01E39237F00E2CFE1;
+			productRefGroup = 96B01EEA1E39237F00E2CFE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96B01EE81E39237F00E2CFE1 /* SportShop */,
+				96B01EFC1E39237F00E2CFE1 /* SportShopTests */,
+				96B01F071E39237F00E2CFE1 /* SportShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96B01EE71E39237F00E2CFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B01EF71E39237F00E2CFE1 /* LaunchScreen.storyboard in Resources */,
+				96B01EF41E39237F00E2CFE1 /* Assets.xcassets in Resources */,
+				96B01EF21E39237F00E2CFE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B01EFB1E39237F00E2CFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B01F061E39237F00E2CFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0485BC984B88C2272AAA03A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportShopUITests/Pods-SportShopUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11552539BF1EEF89F3E806D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportShopTests/Pods-SportShopTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28CFE52536DD0ECBB49464FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportShop/Pods-SportShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C9263FEE0F7FD2F487BCC8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportShopUITests/Pods-SportShopUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DE2A42855C7F8BB95CA45F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DD52F7D055E3F9782D86805 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACAB295961840EDE68F7BE57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D57B449AA285923E305A98C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportShop/Pods-SportShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEBCC41A03A396DCFBE63BEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SportShopTests/Pods-SportShopTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96B01EE51E39237F00E2CFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9674CF691E3B850E00666968 /* CartItemCell.swift in Sources */,
+				9674CF771E3CF31700666968 /* CheckoutController.swift in Sources */,
+				9692A57E1E398DAE00EBEC23 /* AppNavigationDrawerController.swift in Sources */,
+				96E445FB1E403F1F0050523A /* NotificationController.swift in Sources */,
+				9692A5821E39AEA900EBEC23 /* AccountViewController.swift in Sources */,
+				962309181E4236E100706E0E /* Checkin.swift in Sources */,
+				9692A5921E3AE41D00EBEC23 /* SupportViewController.swift in Sources */,
+				96A6AB591E3EF54B0093C051 /* ProductsController.swift in Sources */,
+				9692A58F1E3AE34800EBEC23 /* CartViewController.swift in Sources */,
+				9692A5801E398EA800EBEC23 /* LeftViewController.swift in Sources */,
+				96B01EEF1E39237F00E2CFE1 /* RootViewController.swift in Sources */,
+				96A6AB5B1E3F928D0093C051 /* Product.swift in Sources */,
+				9692A5861E39B04A00EBEC23 /* MenuItemCell.swift in Sources */,
+				9674CF791E3D36D100666968 /* SignupController.swift in Sources */,
+				96A6AB5D1E3F993A0093C051 /* ProductCell.swift in Sources */,
+				96E445F71E3FFFF10050523A /* InStoreController.swift in Sources */,
+				96B01EED1E39237F00E2CFE1 /* AppDelegate.swift in Sources */,
+				9692A5941E3AE5E400EBEC23 /* FeedItem.swift in Sources */,
+				9674CF6B1E3B88EE00666968 /* Cart.swift in Sources */,
+				96A6AB5F1E3FA3140093C051 /* ProductDetailController.swift in Sources */,
+				9623091A1E42421700706E0E /* AdidasUser.swift in Sources */,
+				96E445FD1E4047080050523A /* Activity.swift in Sources */,
+				96E4D9651E415E8800A7EF3C /* SettingsController.swift in Sources */,
+				9692A58C1E3A7C2B00EBEC23 /* FeedItemCell.swift in Sources */,
+				96E445FF1E404D6B0050523A /* ActivityManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B01EF91E39237F00E2CFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B01F021E39237F00E2CFE1 /* SportShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B01F041E39237F00E2CFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B01F0D1E39237F00E2CFE1 /* SportShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96B01EFF1E39237F00E2CFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96B01EE81E39237F00E2CFE1 /* SportShop */;
+			targetProxy = 96B01EFE1E39237F00E2CFE1 /* PBXContainerItemProxy */;
+		};
+		96B01F0A1E39237F00E2CFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96B01EE81E39237F00E2CFE1 /* SportShop */;
+			targetProxy = 96B01F091E39237F00E2CFE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96B01EF01E39237F00E2CFE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B01EF11E39237F00E2CFE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96B01EF51E39237F00E2CFE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B01EF61E39237F00E2CFE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96B01F0F1E39237F00E2CFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96B01F101E39237F00E2CFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96B01F121E39237F00E2CFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0C71CD93B983C55926AA36 /* Pods-SportShop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5W7CYNR7UE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SportShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinvey.SportShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		96B01F131E39237F00E2CFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3D04386EB119574E5A366A /* Pods-SportShop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5W7CYNR7UE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SportShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinvey.SportShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		96B01F151E39237F00E2CFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904FEA2A588E5D7CF9B503B4 /* Pods-SportShopTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SportShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinvey.SportShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportShop.app/SportShop";
+			};
+			name = Debug;
+		};
+		96B01F161E39237F00E2CFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406D1359A9A1F2187CD8B31D /* Pods-SportShopTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SportShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinvey.SportShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportShop.app/SportShop";
+			};
+			name = Release;
+		};
+		96B01F181E39237F00E2CFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38FDD8AD675AD6E99710A1AE /* Pods-SportShopUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SportShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinvey.SportShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SportShop;
+			};
+			name = Debug;
+		};
+		96B01F191E39237F00E2CFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BAAA4F1D2B8FF12919554B /* Pods-SportShopUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SportShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinvey.SportShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SportShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96B01EE41E39237F00E2CFE1 /* Build configuration list for PBXProject "SportShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B01F0F1E39237F00E2CFE1 /* Debug */,
+				96B01F101E39237F00E2CFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B01F111E39237F00E2CFE1 /* Build configuration list for PBXNativeTarget "SportShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B01F121E39237F00E2CFE1 /* Debug */,
+				96B01F131E39237F00E2CFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B01F141E39237F00E2CFE1 /* Build configuration list for PBXNativeTarget "SportShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B01F151E39237F00E2CFE1 /* Debug */,
+				96B01F161E39237F00E2CFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B01F171E39237F00E2CFE1 /* Build configuration list for PBXNativeTarget "SportShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B01F181E39237F00E2CFE1 /* Debug */,
+				96B01F191E39237F00E2CFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96B01EE11E39237F00E2CFE1 /* Project object */;
+}

@@ -1,0 +1,74 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FBSDKCoreKit (4.19.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.19.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.19.0):
+    - FBSDKCoreKit
+  - Haneke (1.0.2)
+  - KeychainAccess (3.0.1)
+  - Kinvey (3.3.7):
+    - KeychainAccess (~> 3.0)
+    - ObjectMapper (~> 2.0)
+    - PromiseKit (~> 4.0)
+    - Realm (~> 2.0)
+    - RealmSwift (~> 2.0)
+    - XCGLogger (~> 4.0)
+  - Material (2.4.11):
+    - Material/Core (= 2.4.11)
+  - Material/Core (2.4.11)
+  - ObjectMapper (2.2.2)
+  - PromiseKit (4.1.4):
+    - PromiseKit/Foundation (= 4.1.4)
+    - PromiseKit/QuartzCore (= 4.1.4)
+    - PromiseKit/UIKit (= 4.1.4)
+  - PromiseKit/CorePromise (4.1.4)
+  - PromiseKit/Foundation (4.1.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.1.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.1.4):
+    - PromiseKit/CorePromise
+  - Realm (2.4.2):
+    - Realm/Headers (= 2.4.2)
+  - Realm/Headers (2.4.2)
+  - RealmSwift (2.4.2):
+    - Realm (= 2.4.2)
+  - XCGLogger (4.0.0):
+    - XCGLogger/Core (= 4.0.0)
+  - XCGLogger/Core (4.0.0)
+  - YouTubePlayer (0.4.0)
+
+DEPENDENCIES:
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Haneke (~> 1.0)
+  - Kinvey
+  - Material (~> 2.0)
+  - YouTubePlayer
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FBSDKCoreKit: 894b2b6eda6a4c8c4204e92e59cc355709ef045c
+  FBSDKLoginKit: 83ca4d8f12a2022570af9fd6aacf27f6b425b99f
+  FBSDKShareKit: 5953758366278430dc322d5cdc906db361ed7f81
+  Haneke: 01454a67322faa0dd9d81fc0f447885044e71521
+  KeychainAccess: 017ea25e313a49eda10bb19b0bb0760fb1edfe1a
+  Kinvey: 5ebbbe25e9181a2b55a75617aa8ce7504174ca41
+  Material: 09b50565d8f824bd74881eba12d7c549b41f510d
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+  PromiseKit: e69aead34c817988ea688b1085aee21300d6dcb8
+  Realm: d27b758e12d62a3371879a065d4c40aa212c5a54
+  RealmSwift: 9556c0fe0f0cfecacfb755ae9e68ff379fc6bead
+  XCGLogger: 38063ea89b4c8b23232d18efd2e12eb0005f3ea4
+  YouTubePlayer: 028451f6772f372d4759866db99824c676ac1473
+
+PODFILE CHECKSUM: 8457ead6c1fbb891135708cf6f2af7f41d9d2720
+
+COCOAPODS: 1.1.0.rc.2
